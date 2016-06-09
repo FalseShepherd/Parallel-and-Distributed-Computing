@@ -1,0 +1,43 @@
+No lib directory, assuming dev environment
+HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-core/target/giraph-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-examples/target/giraph-examples-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+16/05/16 21:31:45 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/05/16 21:31:46 INFO utils.ConfigurationUtils: No edge input format specified. Ensure your InputFormat does not require one.
+16/05/16 21:31:46 INFO utils.ConfigurationUtils: No edge output format specified. Ensure your OutputFormat does not require one.
+16/05/16 21:31:47 INFO Configuration.deprecation: mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+16/05/16 21:31:47 INFO Configuration.deprecation: mapred.job.map.memory.mb is deprecated. Instead, use mapreduce.map.memory.mb
+16/05/16 21:31:47 INFO Configuration.deprecation: mapred.job.reduce.memory.mb is deprecated. Instead, use mapreduce.reduce.memory.mb
+16/05/16 21:31:47 INFO Configuration.deprecation: mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+16/05/16 21:31:47 INFO Configuration.deprecation: mapreduce.user.classpath.first is deprecated. Instead, use mapreduce.job.user.classpath.first
+16/05/16 21:31:47 INFO Configuration.deprecation: mapred.map.max.attempts is deprecated. Instead, use mapreduce.map.maxattempts
+16/05/16 21:31:47 INFO job.GiraphJob: run: Since checkpointing is disabled (default), do not allow any task retries (setting mapred.map.max.attempts = 0, old value = 4)
+16/05/16 21:31:47 INFO Configuration.deprecation: mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+16/05/16 21:31:47 INFO client.RMProxy: Connecting to ResourceManager at parcom01.cs.du.edu/130.253.8.34:8032
+16/05/16 21:31:49 INFO mapreduce.JobSubmitter: number of splits:1
+16/05/16 21:31:49 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1463329886073_0155
+16/05/16 21:31:49 INFO impl.YarnClientImpl: Submitted application application_1463329886073_0155
+16/05/16 21:31:49 INFO mapreduce.Job: The url to track the job: http://parcom01.cs.du.edu:8088/proxy/application_1463329886073_0155/
+16/05/16 21:31:49 INFO job.GiraphJob: Tracking URL: http://parcom01.cs.du.edu:8088/proxy/application_1463329886073_0155/
+16/05/16 21:31:49 INFO job.GiraphJob: Waiting for resources... Job will start only when it gets all 2 mappers
+16/05/16 21:32:13 INFO job.HaltApplicationUtils$DefaultHaltInstructionsWriter: writeHaltInstructions: To halt after next superstep execute: 'bin/halt-application --zkServer parcom01.cs.du.edu:22181 --zkNode /_hadoopBsp/job_1463329886073_0155/_haltComputation'
+16/05/16 21:32:13 INFO mapreduce.Job: Running job: job_1463329886073_0155
+16/05/16 21:32:15 INFO mapreduce.Job: Job job_1463329886073_0155 running in uber mode : false
+16/05/16 21:32:15 INFO mapreduce.Job:  map 100% reduce 0%
+16/05/16 21:32:57 INFO mapreduce.Job: Job job_1463329886073_0155 failed with state FAILED due to: Task failed task_1463329886073_0155_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0
+
+16/05/16 21:32:57 INFO mapreduce.Job: Counters: 8
+	Job Counters 
+		Failed map tasks=1
+		Launched map tasks=1
+		Other local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=59081
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=59081
+		Total vcore-seconds taken by all map tasks=59081
+		Total megabyte-seconds taken by all map tasks=60498944

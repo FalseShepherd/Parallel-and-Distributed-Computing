@@ -1,0 +1,31 @@
+No lib directory, assuming dev environment
+HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-core/target/giraph-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-examples/target/giraph-examples-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+16/05/23 22:08:14 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/05/23 22:08:14 INFO utils.ConfigurationUtils: No vertex input format specified. Ensure your InputFormat does not require one.
+16/05/23 22:08:14 INFO utils.ConfigurationUtils: No vertex output format specified. Ensure your OutputFormat does not require one.
+16/05/23 22:08:14 INFO utils.ConfigurationUtils: Setting custom argument [SpanningTree.root] to [e] in GiraphConfiguration
+16/05/23 22:08:15 INFO Configuration.deprecation: mapreduce.job.counters.limit is deprecated. Instead, use mapreduce.job.counters.max
+16/05/23 22:08:15 INFO Configuration.deprecation: mapred.job.map.memory.mb is deprecated. Instead, use mapreduce.map.memory.mb
+16/05/23 22:08:15 INFO Configuration.deprecation: mapred.job.reduce.memory.mb is deprecated. Instead, use mapreduce.reduce.memory.mb
+16/05/23 22:08:15 INFO Configuration.deprecation: mapred.map.tasks.speculative.execution is deprecated. Instead, use mapreduce.map.speculative
+16/05/23 22:08:15 INFO Configuration.deprecation: mapreduce.user.classpath.first is deprecated. Instead, use mapreduce.job.user.classpath.first
+16/05/23 22:08:15 INFO Configuration.deprecation: mapred.map.max.attempts is deprecated. Instead, use mapreduce.map.maxattempts
+16/05/23 22:08:15 INFO job.GiraphJob: run: Since checkpointing is disabled (default), do not allow any task retries (setting mapred.map.max.attempts = 0, old value = 4)
+16/05/23 22:08:15 INFO Configuration.deprecation: mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+16/05/23 22:08:15 INFO client.RMProxy: Connecting to ResourceManager at parcom01.cs.du.edu/130.253.8.34:8032
+16/05/23 22:08:16 INFO mapreduce.JobSubmitter: number of splits:1
+16/05/23 22:08:16 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1463926494534_0094
+16/05/23 22:08:17 INFO impl.YarnClientImpl: Submitted application application_1463926494534_0094
+16/05/23 22:08:17 INFO mapreduce.Job: The url to track the job: http://parcom01.cs.du.edu:8088/proxy/application_1463926494534_0094/
+16/05/23 22:08:17 INFO job.GiraphJob: Tracking URL: http://parcom01.cs.du.edu:8088/proxy/application_1463926494534_0094/
+16/05/23 22:08:17 INFO job.GiraphJob: Waiting for resources... Job will start only when it gets all 2 mappers
+16/05/23 22:08:32 INFO job.HaltApplicationUtils$DefaultHaltInstructionsWriter: writeHaltInstructions: To halt after next superstep execute: 'bin/halt-application --zkServer parcom01.cs.du.edu:22181 --zkNode /_hadoopBsp/job_1463926494534_0094/_haltComputation'
+16/05/23 22:08:32 INFO mapreduce.Job: Running job: job_1463926494534_0094
+16/05/23 22:08:33 INFO mapreduce.Job: Job job_1463926494534_0094 running in uber mode : false
+16/05/23 22:08:33 INFO mapreduce.Job:  map 100% reduce 0%

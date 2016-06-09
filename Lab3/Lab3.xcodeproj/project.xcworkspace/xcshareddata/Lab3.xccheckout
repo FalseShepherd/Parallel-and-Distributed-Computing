@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7CFC6F8B-14B5-4529-98D5-D23992C5AC7B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lab3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23489819-bdc3-4720-a46c-74add9bfb0b2++3898</key>
+		<string>https://svn.cs.du.edu/faculty/mikegoss/COMPx705/2015Spring</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lab3/Lab3.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23489819-bdc3-4720-a46c-74add9bfb0b2++3898</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>23489819-bdc3-4720-a46c-74add9bfb0b2++3898</key>
+		<string>https://svn.cs.du.edu/faculty</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.cs.du.edu/faculty/mikegoss/COMPx705/2015Spring/Lab3/Lab3.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23489819-bdc3-4720-a46c-74add9bfb0b2++3898</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23489819-bdc3-4720-a46c-74add9bfb0b2++3898</string>
+			<key>IDESourceControlWCCName</key>
+			<string>svnf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

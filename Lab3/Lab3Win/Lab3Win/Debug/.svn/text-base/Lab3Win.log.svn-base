@@ -1,0 +1,10 @@
+﻿Build started 4/18/2016 7:09:48 PM.
+     1>Project "C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Lab3Win\Lab3Win.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Debug\Lab3Win.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\2.9-1\/lib/x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Debug\Lab3Win.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Debug\Lab3Win.lib" /MACHINE:X86 Debug\Lab3.obj
+         Lab3Win.vcxproj -> C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Debug\Lab3Win.exe
+     1>Done Building Project "C:\Users\maxko\Documents\SVN Folder\maximkolb\Lab3\Lab3Win\Lab3Win\Lab3Win.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.74

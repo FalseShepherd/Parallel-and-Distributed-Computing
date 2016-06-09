@@ -1,0 +1,30 @@
+No lib directory, assuming dev environment
+HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-core/target/giraph-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/local/giraph-1.1.0/giraph-examples/target/giraph-examples-1.1.0-for-hadoop-2.6.0-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+16/06/04 17:36:02 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/06/04 17:36:03 INFO utils.ConfigurationUtils: No vertex input format specified. Ensure your InputFormat does not require one.
+16/06/04 17:36:03 INFO utils.ConfigurationUtils: No edge output format specified. Ensure your OutputFormat does not require one.
+Exception in thread "main" java.io.FileNotFoundException: File /u/home/maximkolb/Comp3705Processing/svn/Program4/Job1Output does not exist.
+	at org.apache.hadoop.hdfs.DistributedFileSystem.listStatusInternal(DistributedFileSystem.java:697)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.access$600(DistributedFileSystem.java:105)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$15.doCall(DistributedFileSystem.java:755)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$15.doCall(DistributedFileSystem.java:751)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.listStatus(DistributedFileSystem.java:751)
+	at org.apache.giraph.utils.ConfigurationUtils.populateGiraphConfiguration(ConfigurationUtils.java:429)
+	at org.apache.giraph.utils.ConfigurationUtils.parseArgs(ConfigurationUtils.java:215)
+	at org.apache.giraph.GiraphRunner.run(GiraphRunner.java:74)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:84)
+	at org.apache.giraph.GiraphRunner.main(GiraphRunner.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)

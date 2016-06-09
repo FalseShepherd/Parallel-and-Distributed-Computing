@@ -1,0 +1,16 @@
+﻿  TreeNode.cpp
+TreeNode.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+TreeNode.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+TreeNode.cpp(15): warning C4244: 'argument' : conversion from 'int' to 'char', possible loss of data
+  main.cpp
+main.cpp(20): warning C4018: '<=' : signed/unsigned mismatch
+main.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+main.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+main.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+main.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+main.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+main.cpp(67): warning C4100: 'argv' : unreferenced formal parameter
+main.cpp(67): warning C4100: 'argc' : unreferenced formal parameter
+  Generating code
+  Finished generating code
+  ParallelProgram1.vcxproj -> C:\Users\maxko\Documents\SVN Folder\maximkolb\ParallelProgram1\Release\ParallelProgram1.exe

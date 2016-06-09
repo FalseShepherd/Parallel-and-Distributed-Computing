@@ -1,0 +1,9 @@
+﻿  TreeNode.cpp
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(7): warning C4018: '<' : signed/unsigned mismatch
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(13): warning C4018: '>=' : signed/unsigned mismatch
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(21): warning C4244: 'argument' : conversion from 'int' to 'char', possible loss of data
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(30): warning C4389: '==' : signed/unsigned mismatch
+c:\users\maxko\documents\svn folder\maximkolb\parallelprogram1\parallelprogram1\treenode.cpp(87): warning C4715: 'TreeNode::Find' : not all control paths return a value
+  ParallelProgram1.vcxproj -> C:\Users\maxko\Documents\SVN Folder\maximkolb\ParallelProgram1\Debug\ParallelProgram1.exe

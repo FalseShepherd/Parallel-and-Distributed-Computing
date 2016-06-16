@@ -7,10 +7,10 @@ based system in order to achieve faster compute times for large amounts of Data.
 Most of these programs run primarily off java (or in the case of the OpeCL programs C++) however may require other Software in order to 
 compile and run properly, such as;
 
-Apache_Hadoop
-OpenCL
-OpenGL
-C++
+Apache_Hadoop,
+OpenCL,
+OpenGL,
+and C++
 
 
 
